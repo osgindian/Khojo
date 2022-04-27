@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5sp"
+    tools:context=".Developer">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="260sp"
+        android:layout_height="260sp"
+        android:layout_gravity="center"
+        android:layout_margin="20sp"
+        android:contentDescription="@string/omendra_singh_gakkhar"
+        app:srcCompat="@drawable/dev" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dev_details"
+        android:textColor="#0B0707"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+</LinearLayout>
